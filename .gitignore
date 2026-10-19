@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files (only the documented example is committed)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# testing / tooling output
+coverage/
+
+# migration source, kept locally until it is deleted
+legacy/
+
+# os / editors
+.DS_Store
+Thumbs.db
+*.log
